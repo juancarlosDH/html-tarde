@@ -1,0 +1,184 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    color: #000;
+}
+
+body{
+    background: url('../img/bg-2.png');
+}
+
+main{
+    margin-top: 50px;
+}
+
+.logo{
+    float: left;
+}
+.hamb{
+    float: right;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.hamb i{
+    color: #FFF;
+    font-size: 40px;
+}
+
+header{
+    background-color: #DF5838;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.menu{
+    display: none;
+    font-size: 30px;
+}
+.menu li{
+    color: #FFF;
+}
+#mostrar-menu{
+    display: none;
+}
+#mostrar-menu:checked ~ .menu{
+    display: block;
+}
+
+section.productos{
+    margin: 10px;
+    background-color: #FFF;
+    padding: 10px;
+}
+
+article.producto img{
+    width: 100%;
+}
+
+article.producto a.ver-mas{
+    background-color: red;
+    font-size: 20px;
+    color: #FFF;
+    padding: 5px;
+    display: inline-block;
+}
+
+aside{
+    margin: 10px;
+}
+
+aside h2{
+    background-color: #FFF;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+aside article {
+    background-color: #FFF;
+    padding: 10px;
+}
+
+section.publicidades{
+    margin-top: 10px;
+}
+
+article.publicidad img{
+    width: 100%;
+}
+
+.photo-container{
+    position: relative;
+}
+
+.zoom{
+    background-color: rgba(100,100,100,0.6);
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+article.producto img.img-oferta{
+    width: auto;
+    height: 38px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+@media (min-width:480px) {
+    section.productos{
+        overflow: hidden;
+    }
+    article.producto{
+        width: 50%;
+        float: left;
+    }
+
+    aside{
+        overflow: hidden;
+    }
+
+    section.tutoriales{
+        float: left;
+        width: 60%;
+    }
+    section.publicidades{
+        float: left;
+        width: 40%;
+        margin: 0;
+    }
+
+
+}
+
+@media (min-width:800px) {
+    .logo{
+        width: 15%;
+    }
+    div.hamb{
+        width: 83%
+    }
+    div.hamb label{
+        display: none;
+    }
+    div.hamb div.menu{
+        display: block;
+    }
+
+    .menu-izq{
+        float: left;
+    }
+    .menu-der{
+        float: right;
+    }
+
+    .menu-izq li, .menu-der li{
+        display: inline-block;
+        padding: 4px 20px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/

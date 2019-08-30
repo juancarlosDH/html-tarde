@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 960px;
+    background-color: yellow;
+    margin: 0 auto;
+}
+.banner{
+    height: 100vh;
+    background-color: #452990;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/backgroun.png')
+}
+.flexBox{
+    background-color: red;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.producto{
+    background-color: aquamarine;
+    height: 100px;
+    width: 99%;
+    margin: 1%;
+}
+
+@media (min-width:580px) {
+    .producto{
+        width: 48%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/

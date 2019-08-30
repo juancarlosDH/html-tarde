@@ -1,0 +1,7 @@
+input:focus {
+    background-color: yellow;
+}
+
+#terminos:checked ~ label {
+    background-color: red;
+}

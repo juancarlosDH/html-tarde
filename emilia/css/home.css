@@ -1,0 +1,44 @@
+@import url('general.css');
+
+.principal{
+    height: 100vh;
+    background-image: url('../img/emilia-home.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li a {
+    color: gray;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+h3{
+    background-color: rgba(50,50,50, 0.4);
+}
+
+.skills{
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skill{
+    width: 30%;
+    border: 1px solid red;
+}
+
+
+
+
+
+
+
+/**/

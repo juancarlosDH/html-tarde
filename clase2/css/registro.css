@@ -1,0 +1,33 @@
+body{
+    background: url('../img/emilia-about.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+input{
+    border: 1px solid blue;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.enviar{
+    color: black;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.enviar:hover{
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+.centrado{
+    text-align: center;
+
+
+
+
+
+
+}
